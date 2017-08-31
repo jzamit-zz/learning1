@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	height: 1000px;
+}
+.container{
+	background-color: #D7D7D7;
+	height: 300px;
+	width: 50%;
+	position: absolute;
+	margin-top: 150px;
+
+
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.blueBox{
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	
+}
+
+.redBox{
+	background-color: red;
+}
