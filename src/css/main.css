@@ -1,31 +1,48 @@
 body{
 	margin: 0;
-	height: 1000px;
+	
 }
 .container{
-	background-color: #D7D7D7;
+	position: absolute;
+	top:50%;
+	width:100%;
+	margin-top: -50px; /* this is the middle of the size of blueBox in order to be vertically centered*/
+	/*background-color: #D7D7D7;
 	height: 300px;
 	width: 50%;
-	position: absolute;
-	margin-top: 150px;
-
-
+	position: relative;
+	top:100px;*/
+	/*position: absolute;
+	margin-top: 150px;*/
 }
+
+
 
 .box{
 	width: 100px;
 	height: 100px;
 	border: 1px solid black;
 	margin-bottom: 10px;
+	margin-right: 10px;
 }
 
 .blueBox{
 	background-color: blue;
-	position: absolute;
-	top: 0;
+	margin: 0 auto;
+
+	/*position: absolute;
+	top: 0;*/
+	/*float: right;*/
+
 	
 }
 
-.redBox{
-	background-color: red;
+.greenBox{
+	display: none;
+	background-color: green;
+	float: right;
+}
+
+h2{
+	clear: left;
 }
