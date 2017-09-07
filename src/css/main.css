@@ -3,11 +3,12 @@ body{
 	
 }
 .container{
-	position: absolute;
-	top:50%;
+	/*position: absolute;*/
 	width:100%;
-	margin-top: -50px; /* this is the middle of the size of blueBox in order to be vertically centered*/
-	/*background-color: #D7D7D7;
+	background-color: #D7D7D7;
+	/*margin-top: -50px;*/ /* this is the middle of the size of blueBox in order to be vertically centered*/
+	
+	/*
 	height: 300px;
 	width: 50%;
 	position: relative;
@@ -15,9 +16,6 @@ body{
 	/*position: absolute;
 	margin-top: 150px;*/
 }
-
-
-
 .box{
 	width: 100px;
 	height: 100px;
@@ -25,24 +23,41 @@ body{
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
-
 .blueBox{
 	background-color: blue;
 	margin: 0 auto;
-
 	/*position: absolute;
 	top: 0;*/
 	/*float: right;*/
-
-	
 }
-
 .greenBox{
 	display: none;
 	background-color: green;
 	float: right;
 }
 
-h2{
-	clear: left;
+/* micro clear fix */
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table; 
+}
+.grouping:after {
+  clear: both; 
+}
+h1 {
+  font-size: 70px;
+  line-height:1.4;
+  font-weight: bold;
+  color: #0072ae;
+}
+h2 {
+  font-size:26px;
+  font-style: italic;
+  color: #eb2428;
+  margin-bottom: 10px;
+}
+.wrapper {
+	margin-bottom: 30px;
+
 }
