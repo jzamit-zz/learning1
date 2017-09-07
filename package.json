@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jzamit/learning1.git"
+    "url": "git@github.com:jzamit/learning1.git"
   },
   "author": "Jorge Zamit",
   "license": "ISC",
