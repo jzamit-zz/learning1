@@ -43,6 +43,39 @@ body{
 	float: right;
 }
 
-h2{
-	clear: left;
+/* micro clear fix */
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table; 
+}
+.grouping:after {
+  clear: both; 
+}
+h1 {
+  font-size: 70px;
+  line-height:1.4;
+  font-weight: bold;
+  color: #0072ae;
+}
+h2 {
+  font-size:26px;
+  font-style: italic;
+  color: #eb2428;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 30px;
+
+}
+.column {
+	float: left;
+	width: 33.33%;
+	margin-left: 30px;
+}
+.column:first-child {
+	margin-left: 0;
 }
